@@ -17,7 +17,7 @@
         <fieldset>
           <legend><h2>National Parks by State:</h2></legend>
           <p class="instructions">Hold down the Ctrl (windows) / Command (Mac) button to select multiple states.</p>
-          <select multiple>
+          <select multiple required>
             <option value="AL">Alabama</option>
             <option value="AK">Alaska</option>
             <option value="AZ">Arizona</option>
@@ -77,9 +77,9 @@
     </section>
     <section class="results hidden">
       <h2>Here are the National Parks for your selected states:</h2>
-      <div class="searchResults">
-
-      </div>
+      <ul id="js-searchResults">
+      
+      </ul>
     </section>
   </main>
   
