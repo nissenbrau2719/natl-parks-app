@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+/* html { 
+  background: url(https://images.unsplash.com/photo-1535069499309-04ad66587934?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
+h1, h2 {
+  text-align: center;
+}
+
+.findParks {
+  max-width: 580px;
+  margin: 0 auto;
+}
+
+.results {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+form {
+  text-align: center;
+}
+
+select {
+  display: block;
+  margin: 20px auto;
+}
+
+#submit {
+  padding: 10px 20px;
+  margin: 20px auto;
+  font-weight: bold;
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.instructions {
+  font-style: italic;
+}
